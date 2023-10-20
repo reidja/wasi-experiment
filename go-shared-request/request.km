@@ -1,0 +1,14 @@
+karmem app @packed(true) @golang.package(`request`);  
+
+enum RequestMethod uint8 { Get; Post; }
+
+struct Request table {  
+    Url []char;
+}
+
+struct Response table {
+    Url []char;
+    Method RequestMethod;
+    Body []char;
+    StatusCode uint8;
+}

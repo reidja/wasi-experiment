@@ -1,0 +1,17 @@
+go 1.21.3
+
+use (
+	./go-host-core
+	./go-guest-core
+	./go-guest-log
+	./go-host-log
+	./go-host-console
+	./go-guest-console
+	./go-host-runtime
+	./go-guest-example
+	./go-host-request
+	./go-guest-request
+	./go-host-cache
+	./go-guest-cache
+	./go-shared-request
+)

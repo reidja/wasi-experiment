@@ -1,0 +1,2 @@
+build:
+	tinygo build -o main.wasm -target=wasi -scheduler=none main.go
